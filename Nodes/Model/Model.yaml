@@ -11,3 +11,14 @@ Children:
 - Name: Variable2
   Type: BaseDataVariableType
   DataType: Int32
+- Name: Motor
+  Id: g=5c2f53b8d57d16456995eeae9239229e
+  Supertype: BaseObjectType
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- File: MyMotors/MyMotors.yaml

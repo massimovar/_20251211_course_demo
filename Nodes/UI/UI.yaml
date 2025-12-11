@@ -930,3 +930,4 @@ Children:
           Value: 2
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
+- File: MyWidgets/MyWidgets.yaml

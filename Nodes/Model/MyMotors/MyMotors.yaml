@@ -1,0 +1,57 @@
+Name: MyMotors
+Type: FolderType
+Children:
+- Name: Motor1
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Motor2
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Motor3
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Motor4
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Motor5
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Motor6
+  Type: Motor
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
