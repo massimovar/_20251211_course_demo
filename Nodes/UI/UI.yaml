@@ -928,6 +928,15 @@ Children:
           DataType: Int32
           ModellingRule: Optional
           Value: 2
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Session}/IsWeb"
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: MyWidgets/MyWidgets.yaml
