@@ -37,8 +37,11 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label1"}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{MotorInstance}@BrowseName"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -60,6 +63,17 @@ Children:
     - Name: Checked
       Type: BaseDataVariableType
       DataType: Boolean
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{MotorInstance}/On"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -81,6 +95,17 @@ Children:
     - Name: Value
       Type: BaseDataVariableType
       DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{MotorInstance}/Speed"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -101,3 +126,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 25.0
+  - Name: MotorInstance
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/_20251211_course_demo/Model/Motor"

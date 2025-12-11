@@ -931,3 +931,4 @@ Children:
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: MyWidgets/MyWidgets.yaml
+- File: Dialogs/Dialogs.yaml

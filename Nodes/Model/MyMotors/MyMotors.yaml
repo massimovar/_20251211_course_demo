@@ -1,7 +1,9 @@
 Name: MyMotors
+Id: g=2a97b6fddd7c0a3ab96923ebdcc6da53
 Type: FolderType
 Children:
 - Name: Motor1
+  Id: g=6f151b229be39c84f7b253c27a34ad8a
   Type: Motor
   Children:
   - Name: On
@@ -11,6 +13,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
 - Name: Motor2
+  Id: g=4ecbf452b81aa01f480e1d390ddf7780
   Type: Motor
   Children:
   - Name: On
@@ -20,6 +23,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
 - Name: Motor3
+  Id: g=674fbdbdc739b4fb97f1ab4c84add8c9
   Type: Motor
   Children:
   - Name: On
@@ -29,6 +33,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
 - Name: Motor4
+  Id: g=436372bbfc2a039d81c7e0d19477a94e
   Type: Motor
   Children:
   - Name: On
