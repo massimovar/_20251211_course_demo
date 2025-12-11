@@ -5,3 +5,9 @@ Children:
 - Name: MyVar
   Type: BaseDataVariableType
   DataType: Boolean
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32

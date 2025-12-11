@@ -384,6 +384,10 @@ Children:
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
+  - Name: DynamicVariablesPollingTime
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:00.1000000"
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
@@ -483,7 +487,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ff00"
+        Value: "#ffff00"
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -776,7 +780,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/_20251211_course_demo/UI/Screens/MyAlarms"
+            Value: "/Objects/_20251211_course_demo/UI/Screens/MyConverters"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -816,7 +820,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/_20251211_course_demo/UI/Screens/MyData"
+            Value: "/Objects/_20251211_course_demo/UI/Screens/MyMotors"
             Children:
             - Name: Kind
               Type: PropertyType
